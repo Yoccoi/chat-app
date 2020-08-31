@@ -12,13 +12,44 @@
 .side-bar-header {
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-name a {
+  color: #fafafa;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.create-btn {
+  padding: 14px;
+  border: 1px solid lightblue;
+}
+
+.create-btn a {
+  color: deepskyblue;
+  font-size: 10px;
+  text-decoration: none;
 }
 
 .rooms {
   background-color: #2F3E51;
   height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow: scroll;
 }
+
+.room {
+  padding: 20px 0 40px 0;
+}
+
+.room a {
+  color: white;
+  text-decoration: none;
+}
+
 
 /*　右カラム　*/
 .chat {
